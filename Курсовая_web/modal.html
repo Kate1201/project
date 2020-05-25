@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Магазин пряжи </title>
+
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap-grid.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap-grid.min.css">
+	<link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+	<script src="script.js"></script>
+</head>
+<body class="bg">
+	<header >
+		<nav class="navbar navbar-expand-lg navbar-dark bg-primary ">
+		  <a class="navbar-brand" href="#"><img class="img_size" src="./img/favicon.png"></a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNav">
+		    <ul class="navbar-nav nav_f">
+		      <li class="nav-item active ">
+		        <a class="nav-link li_nav" href="index.html">Главная <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Товары
+		        </a>
+		        <div class="dropdown-menu nav_bg" aria-labelledby="navbarDropdown">
+		          <a class="dropdown-item" href="Angora.html">Ангора</a>
+		          <a class="dropdown-item" href="Alpaca.html">Альпака</a>
+		          <a class="dropdown-item" href="Wool.html">Шерсть</a>
+		          <a class="dropdown-item" href="Merino.html">Меринос</a>
+		          <a class="dropdown-item" href="Yarn.html">Летняя пряжа</a>
+		         </div>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link li_nav" href="info.html">О нас</a>
+		      </li>
+		    </ul>
+		    <ul class="ml-auto">
+		      	<button class="button btn btn-primary" onclick="document.location='reg.html'">Зарегистрироваться</button> 
+		        <button class="button btn btn-primary" onclick="document.location='modal.html'">Войти</button>
+		      </ul>	
+		  </div>
+		</nav>
+	</header>
+
+
+	<br>
+	<div class="container_log">        
+          <form class="center">
+            <table >
+              <tr class="table_marg">
+                <td class="center">
+                  <p class=" nav_f"> Авторизация</p>
+                </td>
+              </tr>
+              <tr >
+                <td><input type="label" name="login" placeholder="Логин"></td>
+              </tr>
+              <tr >
+                <td>
+                  <input type="password" name="password" placeholder="Пароль"><br>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <button class="btn btn-primary">Войти</button>  
+                </td>
+              </tr>
+              <tr>
+                <td class="left">
+                  <p class="font_right"><a class="font_a color " href="reg.html"> Зарегистрироваться</a></p>
+                </td>
+              </tr>
+            </table>
+          </form>     
+    </div>
+	
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>	
